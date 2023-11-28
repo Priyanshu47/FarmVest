@@ -49,7 +49,7 @@ const Footer = () => {
      <Image
       src="/fac.svg"
       width={30}
-      height={30}S
+      height={30}
       alt="Logo"
     />
      <Image
