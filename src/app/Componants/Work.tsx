@@ -8,18 +8,18 @@ const Work = () => {
 
     <div
         className=" mx-auto max-w-7xl px-4  sm:px-6  lg:px-12  flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row">
-        <div className="sm:text-center lg:text-left w-1/2 ">
-            <h1 className="text-4xl font-bold text-custom-grey sm:text-5xl md:text-6xl">
+        <div className="sm:text-center lg:text-left md:w-1/2 ">
+            <h1 className="text-5xl font-bold text-custom-grey md:text-6xl">
               How
                 <span className="text-custom-green gap-10"> FarmVest </span><br/>
                 Works
             </h1>
             <p
-                className="mt-3 text-sm leading-relaxed tracking-wide text-custom-grey sm:mt-5 pr-36 sm:max-w-xl sm:mx-auto md:my-5 lg:mx-0">
+                className="my-10 text-sm  text-custom-grey sm:mt-5 md:pr-36 sm:max-w-xl sm:mx-auto md:my-5 lg:mx-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
             </p>
-          <div className="flex flex-col">
-          <div className="flex flex-row my-5">
+          <div className="flex flex-col items-start">
+          <div className="flex flex-row mt-6">
                                 <Image
                       src="/1.png"
                       width={80}

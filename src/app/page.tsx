@@ -12,7 +12,7 @@ import Why from "./Componants/Why";
 export default function Home() {
   return (
     <>
-      <div
+      <div 
         style={{
           backgroundImage: `url(/bg.png)`,
         }}

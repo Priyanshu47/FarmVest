@@ -4,11 +4,11 @@ import Image from "next/image";
 
 const Future = () => {
   return (
-    <section className="md:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="md:py-20 my-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
     <div
-        className=" mx-auto max-w-7xl px-4  sm:px-6  lg:px-12  flex gap-40 lg:flex-justify lg:flex flex-col lg:flex-row">
-        <div className="lg:inset-y-0 lg:right-0 lg:w-1/2">
+        className=" mx-auto max-w-7xl px-4  sm:px-6  lg:px-12  flex md:gap-40 lg:flex-justify lg:flex flex-col lg:flex-row">
+        <div className="lg:inset-y-0 lg:right-0 my-10 md:w-1/2">
         <Image
                         src="/F.png"
                         width={750}
@@ -17,21 +17,21 @@ const Future = () => {
                             />
         </div>
 
-        <div className="sm:text-center lg:text-left w-1/2 ">
-            <h1 className="text-4xl font-bold text-custom-grey sm:text-5xl md:text-6xl">
+        <div className="sm:text-center lg:text-left md:w-1/2 ">
+            <h1 className="text-5xl font-bold text-custom-grey  md:text-6xl">
             Your
                 <span className="text-custom-green gap-10"> pathway  </span><br/>
                 to Future Investment
             </h1>
             <p
-                className="mt-3 text-xs text-custom-grey sm:mt-5 pr-36 sm:max-w-xl sm:mx-auto md:mt-5 lg:mx-0">
+                className="mt-10 text-sm text-custom-grey sm:mt-5 md:pr-36 sm:max-w-xl sm:mx-auto md:mt-5 lg:mx-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
             </p>
          
             <div className="group relative cursor-pointer py-2">
 
-<div className="flex items-center justify-between space-x-5 bg-slate-100 rounded my-5 px-4">
-    <a className="menu-hover my-2 py-2 text-base font-medium text-custom-grey lg:mx-4">
+<div className="flex items-center  justify-between space-x-5 bg-slate-100 rounded my-5 px-4">
+    <a className="menu-hover my-2 py-2 text-xs md:text-base font-medium text-custom-grey lg:mx-4">
     What is FarmVest?
     </a>
     <span>
@@ -44,7 +44,7 @@ const Future = () => {
     </span>
 </div>
 <div className="flex items-center justify-between space-x-5 bg-slate-100 rounded my-5 px-4">
-    <a className="menu-hover my-2 py-2 text-base font-medium text-custom-grey lg:mx-4">
+    <a className="menu-hover my-2 py-2 text-xs md:text-base font-medium text-custom-grey lg:mx-4">
     How safe is FarmVest
     </a>
     <span>
@@ -57,7 +57,7 @@ const Future = () => {
     </span>
 </div>
 <div className="flex items-center justify-between space-x-5 bg-slate-100 rounded my-5 px-4">
-    <a className="menu-hover my-2 py-2 text-base font-medium text-custom-grey lg:mx-4">
+    <a className="menu-hover my-2 py-2 text-xs md:text-base font-medium text-custom-grey lg:mx-4">
     What do I gain from using FarmVest?
     </a>
     <span>

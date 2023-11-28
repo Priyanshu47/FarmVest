@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const Appsection = () => {
   return (
-    <div className=" mx-auto lg:mx-72 lg:my-20 justify-center items-center rounded-md sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-40 bg-slate-100">
+    <div className=" mx-auto md:mx-72 md:my-20 my-16  justify-center items-center rounded-md sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-40 bg-slate-100">
       <div
         style={{
           backgroundImage: `url(/bgg.png)`,
         }}
         className="bg-cover bg-center"
       >
-      <h2 className="lg:text-4xl pt-8 text-custom-grey text-center font-bold font-spartan">
+      <h2 className="lg:text-4xl text-2xl pt-8 text-custom-grey text-center font-bold font-spartan">
         Download <span className="text-custom-green">FarmVest app</span> <br /> and
         invest in your future
       </h2>

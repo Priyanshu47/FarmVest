@@ -3,17 +3,17 @@ import Image from "next/image";
 
 const Why = () => {
   return (
-    <section className="md:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="md:py-20 my-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
     <div
         className=" mx-auto max-w-7xl px-4  sm:px-6  lg:px-12  flex gap-3 lg:flex-justify lg:flex flex-col lg:flex-row">
-        <div className="sm:text-center lg:text-left w-1/2 ">
-         <h1 className="text-4xl font-bold text-custom-grey sm:text-5xl md:text-6xl">
+        <div className="sm:text-center md:text-left md:w-1/2 my-10">
+         <h1 className="text-5xl font-bold text-custom-grey  md:text-6xl">
             Why choose 
             <span className="text-custom-green">   FarmVest</span>
          </h1>
             <p
-                className="my-3 text-sm text-custom-grey sm:mt-5 pr-36 sm:max-w-xl sm:mx-auto md:mt-5 lg:mx-0">
+                className="my-10 text-sm text-custom-grey  sm:mt-5 md:pr-36 sm:max-w-xl sm:mx-auto md:mt-5 lg:mx-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac
             </p>
             <div className="flex flex-col">
@@ -60,7 +60,7 @@ const Why = () => {
 
           </div>
  
-            <button type="button"  className="bg-custom-green w-36 h-10 text-sm text-white rounded-md px-2 md:px-4 md:ml-2 md:my-5 items-center "
+            <button type="button"  className="bg-custom-green w-36 h-10 text-sm text-white rounded-md px-2 md:px-4 md:ml-2 md:my-5 mt-10 items-center "
           > Learn More
           </button>
          

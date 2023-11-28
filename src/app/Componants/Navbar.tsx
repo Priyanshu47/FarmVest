@@ -2,9 +2,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="relative flex items-center justify-between sm:h-5 md:justify-center p-8 lg:mx-28 lg:p-16">
+    <nav className="relative flex items-center justify-between sm:h-5 md:justify-center p-8 md:mx-3 lg:mx-28 lg:p-16">
       <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-        <div className="flex items-center text-center justify-between w-full md:w-auto lg:text-2xl font-semibold text-custom-grey">
+        <div className="flex items-center text-center justify-between w-full md:w-auto lg:text-2xl text-base font-semibold text-custom-grey">
   
             FarmVest
          

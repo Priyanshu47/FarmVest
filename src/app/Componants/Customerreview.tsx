@@ -5,9 +5,9 @@ import Image from 'next/image'
 const Customerreview = () => {
   return (
     <>
-    <div className="text-custom-grey text-center lg:text-6xl text-xl font-bold p-10">
+    <div className="text-custom-grey text-center lg:text-6xl text-5xl font-bold">
         What <span className="text-custom-green"> Customers  </span> have to say
-    <p className="text-sm pt-10 font-normal">
+    <p className="md:text-sm text-sm md:pt-10 py-10 px-16 font-normal">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/> Quo veniam asperiores, atque unde adipisci consectetur!</p>
     </div>
 
