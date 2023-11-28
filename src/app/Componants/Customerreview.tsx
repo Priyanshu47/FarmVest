@@ -16,7 +16,7 @@ const Customerreview = () => {
 
     <div className="px-4 md:flex md:flex-row mx-auto gap-10 justify-center sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-12">
   <figure className="md:flex  lg:w-2/5 lg:h-72  bg-slate-100 rounded-xl mb-10 p-8 md:p-0 dark:bg-slate-800">
-    <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-md rounded-full mx-auto object-cover" src="/Pic.png" alt="" width="312" height="377"/>
+    <Image className="w-24 h-24 md:w-48 md:h-auto md:rounded-md rounded-full mx-auto object-cover" src="/Pic.png" alt="" width="312" height="377"/>
     <div className="pt-6 md:p-8 text-center md:text-left space-y-4 text-slate-800">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum labore eos? Possimus, iure illo!
        
@@ -28,7 +28,7 @@ const Customerreview = () => {
     </div>
   </figure>
   <figure className="md:flex lg:w-2/5  lg:h-72  bg-slate-100 rounded-xl  p-8 md:p-0 dark:bg-slate-800">
-    <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-md rounded-full mx-auto object-cover" src="/Picture.png" alt="" width="312" height="377"/>
+    <Image className="w-24 h-24 md:w-48 md:h-auto md:rounded-md rounded-full mx-auto object-cover" src="/Picture.png" alt="" width="312" height="377"/>
     <div className="pt-6 md:p-8 text-center md:text-left space-y-4 text-slate-800">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum labore eos? Possimus, iure illo!
        
