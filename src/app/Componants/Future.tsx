@@ -30,7 +30,7 @@ const Future = () => {
          
             <div className="group relative cursor-pointer py-2">
 
-<div className="flex items-center justify-between space-x-5 bg-custext-custom-grey rounded my-5 px-4">
+<div className="flex items-center justify-between space-x-5 bg-custom-grey rounded my-5 px-4">
     <a className="menu-hover my-2 py-2 text-base font-medium text-custom-grey lg:mx-4">
     What is FarmVest?
     </a>
@@ -43,7 +43,7 @@ const Future = () => {
     />
     </span>
 </div>
-<div className="flex items-center justify-between space-x-5 bg-custext-custom-grey rounded my-5 px-4">
+<div className="flex items-center justify-between space-x-5 bg-custom-grey rounded my-5 px-4">
     <a className="menu-hover my-2 py-2 text-base font-medium text-custom-grey lg:mx-4">
     How safe is FarmVest
     </a>
@@ -56,7 +56,7 @@ const Future = () => {
     />
     </span>
 </div>
-<div className="flex items-center justify-between space-x-5 bg-custext-custom-grey rounded my-5 px-4">
+<div className="flex items-center justify-between space-x-5 bg-custom-grey rounded my-5 px-4">
     <a className="menu-hover my-2 py-2 text-base font-medium text-custom-grey lg:mx-4">
     What do I gain from using FarmVest?
     </a>
