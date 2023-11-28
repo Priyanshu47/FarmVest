@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = () => {
   return (
-    <div className="md:mx-10 md:mt-10 px-8">
+    <div className="md:mx-10 lg:mx-80 md:mt-10 px-8">
       <div className="text-5xl md:text-5xl lg:text-6xl pt-8 text-custom-grey text-center font-extrabold ">
         The easiest and fastest way to
         <span className="text-custom-green"> Invest </span> in  <br/>Agriculture
