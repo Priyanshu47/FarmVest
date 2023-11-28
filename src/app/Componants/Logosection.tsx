@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 const Logosection = () => {
   return (
-    <div class="mx-28 my-28">
-      <div class="flex flex-col justify-center">
-        <div class="flex flex-wrap items-center justify-center gap-10 mt-2 md:justify-around">
+    <div className="mx-28 my-28">
+      <div className="flex flex-col justify-center">
+        <div className="flex flex-wrap items-center justify-center gap-10 mt-2 md:justify-around">
         <Image
       src="/MarketWatch Logo.png"
       width={125}
