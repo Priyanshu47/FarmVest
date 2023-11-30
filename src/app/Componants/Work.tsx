@@ -2,6 +2,28 @@ import React from 'react'
 import Image from "next/image";
 
 const Work = () => {
+  const data = [
+    {
+      image: "/1.png",
+      title: "Download FarmVest",
+      descript:"Start by downloading FarmVest app on your Android or IOS",
+    },
+    {
+      image: "/2.png",
+      title: "Create account",
+      descript:"Start by downloading FarmVest app on your Android or IOS",
+    },
+    {
+      image: "/3.png",
+      title: "Link your bank account",
+      descript:"Start by downloading FarmVest app on your Android or IOS",
+    },
+    {
+      image: "/4.png",
+      title: "Create account",
+      descript:"Start by downloading FarmVest app on your Android or IOS",
+    },
+  ]
   return (
     <>
     <section className="md:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -18,60 +40,28 @@ const Work = () => {
                 className="my-10 text-sm  text-custom-grey sm:mt-5 md:pr-36 sm:max-w-xl sm:mx-auto md:my-5 lg:mx-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
             </p>
+            
           <div className="flex flex-col items-start">
-          <div className="flex flex-row mt-6">
-                                <Image
-                      src="/1.png"
+            {data.map((val, i)=> {
+              return (
+                <div className="flex flex-row mt-6" key={i}>
+                             {   <Image
+                      src={val.image}
                       width={80}
                       height={80}
                       alt="Logo"
-                      />
+                      />}
                      <div  className="ml-10 lg:mr-48">
-                     <h1 className="mb-2 text-sm font-bold text-custom-grey">Download FarmVest</h1>
-                      <p  className="text-sm font-light text-custom-grey">Start by downloading FarmVest app on your Android or IOS</p>
+                     <h1 className="mb-2 text-sm font-bold text-custom-grey">{val.title}</h1>
+                      <p  className="text-sm font-light text-custom-grey">{val.descript}</p>
                      </div>
-            </div>   
+            </div> 
+              )
+            })}
+            
 
           </div>
-         <div className="flex flex-row my-6">
-         <Image
-                      src="/2.png"
-                      width={80}
-                      height={80}
-                      alt="Logo"
-                      />
-                     <div  className="ml-10 lg:mr-48">
-                     <h1 className="mb-2 text-sm font-bold text-custom-grey">Create account</h1>
-                      <p  className="text-sm font-light text-custom-grey">Start by downloading FarmVest app on your Android or IOS</p>
-                     </div>s
-
-         </div>
-         <div className="flex flex-row my-6">
-         <Image
-                      src="/3.png"
-                      width={80}
-                      height={80}
-                      alt="Logo"
-                      />
-                     <div  className="ml-10 lg:mr-48">
-                     <h1 className="mb-2 text-sm font-bold text-custom-grey">Link your bank account</h1>
-                      <p  className="text-sm font-light text-custom-grey">Start by downloading FarmVest app on your Android or IOS</p>
-                     </div>s
-
-         </div>
-         <div className="flex flex-row my-6">
-         <Image
-                      src="/4.png"
-                      width={80}
-                      height={80}
-                      alt="Logo"
-                      />
-                     <div  className="ml-10 lg:mr-48">
-                     <h1 className="mb-2 text-sm font-bold text-custom-grey">Create account</h1>
-                      <p  className="text-sm font-light text-custom-grey">Start by downloading FarmVest app on your Android or IOS</p>
-                     </div>s
-
-         </div>
+       
                  </div>
 
         

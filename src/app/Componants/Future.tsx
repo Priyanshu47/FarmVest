@@ -3,12 +3,27 @@ import Image from "next/image";
 
 
 const Future = () => {
+  const data = [
+    {
+      title:"What is FarmVest ?",
+      descript:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eveniet cumque illo, suscipit blanditiis recusandae obcaecati. Neque mollitia eaque non.",
+    },
+    
+    {
+      title:"How safe is FarmVest",
+      descript:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eveniet cumque illo, suscipit blanditiis recusandae obcaecati. Neque mollitia eaque non.",
+    },
+    {
+      title:"What do I gain from using FarmVest ?",
+      descript:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eveniet cumque illo, suscipit blanditiis recusandae obcaecati. Neque mollitia eaque non.",
+    },
+  ]
   return (
     <section className="md:py-20 my-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
     <div
         className=" mx-auto max-w-7xl px-4  sm:px-6  lg:px-12  flex md:gap-40 lg:flex-justify lg:flex flex-col lg:flex-row">
-        <div className="lg:inset-y-0 lg:right-0 my-10 md:w-1/2">
+        <div className="lg:inset-y-0 lg:right-0 md:w-1/2">
         <Image
                         src="/F.png"
                         width={750}
@@ -24,53 +39,33 @@ const Future = () => {
                 to Future Investment
             </h1>
             <p
-                className="mt-10 text-sm text-custom-grey sm:mt-5 md:pr-36 sm:max-w-xl sm:mx-auto md:mt-5 lg:mx-0">
+                className="mt-10 text-sm text-custom-grey sm:mt-5 md:pr-20 sm:max-w-xl sm:mx-auto md:mt-5 lg:mx-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac etLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur
             </p>
          
-            <div className="group relative cursor-pointer py-2">
+            <div>
+    {data.map((val,i)=>{
+      return(
+        <div className="dropdown inline-block relative w-full" key={i}>
+        <button className="w-full text-custom-grey font-semibold px-5 inline-flex items-center  justify-between bg-slate-100 rounded mt-5 mb-2">
+          <h1 className="mr-1 my-2 py-2 text-xs md:text-base font-light text-custom-grey ">{val.title}</h1>
+          <Image
+            src="/arrow-down.svg"
+            width={20}
+            height={20}
+            alt="P"
+          />
+        </button>
+        <ul className="dropdown-menu absolute hidden text-custom-grey z-50">
+          <li className=""><p className="rounded-t bg-gray-100 text-xs md:text-base font-light py-2 px-4 block whitespace-no-wrap" href="#">{val.descript}</p></li>
+          
+        </ul>
+      </div>
+      
+      );
+    })}
 
-<div className="flex items-center  justify-between space-x-5 bg-slate-100 rounded my-5 px-4">
-    <a className="menu-hover my-2 py-2 text-xs md:text-base font-medium text-custom-grey lg:mx-4">
-    What is FarmVest?
-    </a>
-    <span>
-    <Image
-      src="/arrow-down.svg"
-      width={25}
-      height={25}
-      alt="P"
-    />
-    </span>
 </div>
-<div className="flex items-center justify-between space-x-5 bg-slate-100 rounded my-5 px-4">
-    <a className="menu-hover my-2 py-2 text-xs md:text-base font-medium text-custom-grey lg:mx-4">
-    How safe is FarmVest
-    </a>
-    <span>
-    <Image
-      src="/arrow-down.svg"
-      width={25}
-      height={25}
-      alt="P"
-    />
-    </span>
-</div>
-<div className="flex items-center justify-between space-x-5 bg-slate-100 rounded my-5 px-4">
-    <a className="menu-hover my-2 py-2 text-xs md:text-base font-medium text-custom-grey lg:mx-4">
-    What do I gain from using FarmVest?
-    </a>
-    <span>
-    <Image
-      src="/arrow-down.svg"
-      width={25}
-      height={25}
-      alt="P"
-    />
-    </span>
-</div>
-
-</div>   
          
         </div>
       

@@ -21,10 +21,11 @@ const Button = () => {
           />
           <button
             type="submit"
-            className="bg-custom-green w-36 h-10 text-xs text-white rounded-md px-2 md:px-4 md:ml-2 "
+            className="bg-custom-green w-36 h-10 sm:text-xs md:text-sm text-white rounded-md px-2 md:px-4 md:ml-2 "
           >
             Get started
           </button>
+          
         </form>
       </div>
     </div>

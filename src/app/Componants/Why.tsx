@@ -2,6 +2,26 @@ import React from 'react'
 import Image from "next/image";
 
 const Why = () => {
+  const data = [
+    {
+      image: "/1.png",
+      descript:"Real-time Checkup",
+    },
+    {
+      image: "/1.png",
+      descript:"Flexibility in Investment",
+    },
+    {
+      image: "/1.png",
+      descript:"Encrypted and Secured",
+    },
+    {
+      image: "/1.png",
+      descript:"Withdraw Anytime",
+    },
+    
+  ]
+
   return (
     <section className="md:py-20 my-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -17,46 +37,21 @@ const Why = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, mollis aenean sit dictum tincidunt. Ut arcu, suscipit ac
             </p>
             <div className="flex flex-col">
-          <div className="flex flex-row my-5 items-center gap-10">
-                                <Image
-                      src="/1.png"
-                      width={60}
-                      height={60}
-                      alt="Logo"
-                      />
-                   
-                      <p  className="text-sm  text-custom-grey font-medium">Real-time Checkup</p>
-            </div>   
-            <div className="flex flex-row my-5 items-center gap-10">
-                                <Image
-                      src="/1.png"
-                      width={60}
-                      height={60}
-                      alt="Logo"
-                      />
-                   
-                      <p  className="text-sm  text-custom-grey font-medium">Flexibility in Investment</p>
-            </div>  
-            <div className="flex flex-row my-5 items-center gap-10">
-                                <Image
-                      src="/1.png"
-                      width={60}
-                      height={60}
-                      alt="Logo"
-                      />
-                   
-                      <p  className="text-sm  text-custom-grey font-medium">Encrypted and Secured</p>
-            </div>  
-            <div className="flex flex-row my-5 items-center gap-10">
-                                <Image
-                      src="/1.png"
-                      width={60}
-                      height={60}
-                      alt="Logo"
-                      />
-                   
-                      <p  className="text-sm  text-custom-grey font-medium">Withdraw Anytime</p>
-            </div>  
+              {data.map((val,i)=>{
+                return(
+                  <div className="flex flex-row my-5 items-center gap-10" key={i}>
+                  <Image
+                           src={val.image}
+                           width={60}
+                          height={60}
+                           alt="Logo"
+                             />
+        <p  className="text-sm  text-custom-grey font-medium">{val.descript}</p>
+              </div>  
+                );
+              })}
+          
+
 
           </div>
  
