@@ -57,7 +57,7 @@ const Future = () => {
           />
         </button>
         <ul className="dropdown-menu absolute hidden text-custom-grey z-50">
-          <li className=""><p className="rounded-t bg-gray-100 text-xs md:text-base font-light py-2 px-4 block whitespace-no-wrap" href="#">{val.descript}</p></li>
+          <li className=""><p className="rounded-t bg-gray-100 text-xs md:text-base font-light py-2 px-4 block whitespace-no-wrap">{val.descript}</p></li>
           
         </ul>
       </div>
