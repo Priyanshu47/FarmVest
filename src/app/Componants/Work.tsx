@@ -47,13 +47,13 @@ const Work = () => {
                 <div className="flex flex-row mt-6" key={i}>
                              {   <Image
                       src={val.image}
-                      width={80}
-                      height={80}
+                      width={120}
+                      height={60}
                       alt="Logo"
                       />}
                      <div  className="ml-10 lg:mr-48">
                      <h1 className="mb-2 text-sm font-bold text-custom-grey">{val.title}</h1>
-                      <p  className="text-sm font-light text-custom-grey">{val.descript}</p>
+                      <p  className="text-sm font-liSght text-custom-grey">{val.descript}</p>
                      </div>
             </div> 
               )

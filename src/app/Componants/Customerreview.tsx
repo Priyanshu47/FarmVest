@@ -18,7 +18,7 @@ const Customerreview = () => {
 
   return (
     <>
-    <div className="text-custom-grey text-center lg:text-6xl text-5xl font-bold">
+    <div className="text-custom-grey text-center lg:text-6xl text-4xl font-bold mx-5">
         What <span className="text-custom-green"> Customers  </span> have to say
     <p className="md:text-sm text-sm md:pt-10 py-10 px-16 font-normal">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br/> Quo veniam asperiores, atque unde adipisci consectetur!</p>
@@ -27,7 +27,7 @@ const Customerreview = () => {
 
 
 
-    <div className="px-4 md:flex md:flex-row mx-auto gap-10 justify-center sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-12">
+    <div className="px-8 md:flex md:flex-row mx-auto gap-10 justify-center sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-12">
       {data.map((val,i)=>{
         return(
           <figure className="md:flex  lg:w-2/5 lg:h-72  bg-slate-100 rounded-xl mb-10 p-8 md:p-0 dark:bg-slate-800" key={i}>
